@@ -1,0 +1,77 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 320px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.toggle-buttons button {
+  width: 48%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-buttons button:hover {
+  background: #0056b3;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}

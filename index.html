@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Auth App</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Buttons -->
+  <div class="toggle-buttons">
+    <button id="showLogin">Sign In</button>
+    <button id="showSignup">Sign Up</button>
+  </div>
+
+  <!-- Signup Form -->
+  <form id="signupForm" class="form hidden">
+    <h2>Sign Up</h2>
+
+    <input type="text" id="su-username" placeholder="Username" />
+    <input type="password" id="su-password" placeholder="Password" />
+
+    <!-- Radio -->
+    <div class="radio-group">
+      <label><input type="radio" class="role" name="role" value="User" /> User</label>
+      <label><input type="radio" class="role" name="role" value="Admin" /> Admin</label>
+    </div>
+
+    <!-- Checkbox -->
+    <label class="checkbox">
+      <input type="checkbox" id="terms" /> Accept Terms
+    </label>
+
+    <button type="submit">Register</button>
+
+    <p id="signupMessage"></p>
+  </form>
+
+  <!-- Login Form -->
+  <form id="loginForm" class="form">
+    <h2>Sign In</h2>
+
+    <input type="text" id="li-username" placeholder="Username" />
+    <input type="password" id="li-password" placeholder="Password" />
+
+    <button type="submit">Login</button>
+
+    <p id="loginMessage"></p>
+  </form>
+
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
