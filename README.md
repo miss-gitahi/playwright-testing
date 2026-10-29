@@ -1,22 +1,27 @@
 # 🎭 Playwright Automation Testing Practice
-This repository contains automation testing exercises and projects developed while learning **Playwright** and modern web testing practices.
 
-## 📚 Skills Practiced
-- Writing Playwright test scripts
-- Using locators effectively
+This repository showcases automated testing projects and practice exercises developed using Playwright. It demonstrates foundational and intermediate automation testing concepts, including test scripting, element interaction, validation techniques, and test execution workflows.
+
+## Skills Demonstrated
+
+- Automated UI testing
+- Playwright test development
+- Locator strategies
 - Assertions and validations
-- Test execution and reporting
 - Browser automation
+- Test execution and reporting
 
-## 🛠️ Tools & Technologies
-- **Playwright**
-- **TypeScript**
-- **Node.js**
-- **Visual Studio Code**
+## Tools & Technologies
 
-  ##  Author
+- Playwright
+- TypeScript
+- Node.js
+- Visual Studio Code
+
+## Author
+
 **Syndia Wangechi Gitahi**  
-QA Automation Tester
+Aspiring QA Automation Tester & UI/UX Designer
 
-This repository serves as a learning and practice space for developing automation testing skills, exploring Playwright features, and implementing real-world testing scenarios.
-``
+##  Repository Goal
+To build practical experience in automation testing by developing, executing, and maintaining test scripts using Playwright while following industry-standard testing practices.
