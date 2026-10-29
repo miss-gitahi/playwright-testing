@@ -18,10 +18,9 @@ This repository showcases automated testing projects and practice exercises deve
 - Node.js
 - Visual Studio Code
 
-## Author
-
-**Syndia Wangechi Gitahi**  
-Aspiring QA Automation Tester & UI/UX Designer
-
 ##  Repository Goal
 To build practical experience in automation testing by developing, executing, and maintaining test scripts using Playwright while following industry-standard testing practices.
+
+## Author
+**Syndia Wangechi Gitahi**  
+QA Automation Tester
